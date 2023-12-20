@@ -1,0 +1,21 @@
+/* CardsGrid.css */
+.cards-grid-wrapper {
+  padding: 2rem;
+  background-color: #fffbf5;
+}
+
+.cards-grid-wrapper > h2 {
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+.cards-grid {
+  background-color: #fffbf5;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left; /* This will center the cards in the middle of the page */
+  gap: 1.5rem; /* This is the space between the cards */
+}
+
+/* Media queries are not needed if cards do not change size and just wrap */

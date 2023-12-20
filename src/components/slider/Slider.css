@@ -1,0 +1,28 @@
+/* CarouselComponent.css */
+.course-carousel .carousel-item {
+  text-align: center;
+  background: #f8f9fa;
+  border-radius: 8px; /* Optional: for rounded corners */
+}
+
+.course-carousel .carousel-item img {
+  max-height: 200px; /* Adjust as needed */
+  margin: auto;
+}
+
+.course-carousel .carousel-caption h3 {
+  color: #000; /* Adjust as needed */
+}
+
+.course-carousel .carousel-caption p {
+  color: #666; /* Adjust as needed */
+}
+
+/* Adjust dots (indicators) */
+.course-carousel .carousel-indicators li {
+  background-color: #000; /* Active dot color */
+}
+
+.course-carousel .carousel-indicators .active {
+  background-color: #fff; /* Inactive dot color */
+}

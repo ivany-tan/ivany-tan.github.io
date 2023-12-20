@@ -1,0 +1,46 @@
+/* Affiliation.css */
+.affiliation-container {
+  background: var(--clr-white);
+  text-align: center;
+  padding: 2rem 15%;
+}
+
+.affiliation-container h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: var(--clr-feature-h);
+}
+
+.affiliation-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem; /* Adjust the space between logos as needed */
+}
+
+.affiliation-logo img {
+  max-height: 5rem;
+  max-width: 5rem; /* Adjust the size as needed */
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive adjustments */
+/* @media (max-width: 768px) {
+  .affiliation-logos {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .affiliation-logo {
+    flex: 0 50%;
+    margin-bottom: 1rem;
+  }
+} */
+
+@media (max-width: 480px) {
+  .affiliation-logo {
+    flex: 0 100%; /* 1 logo per row on very small screens */
+  }
+}

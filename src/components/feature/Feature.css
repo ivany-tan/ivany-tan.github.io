@@ -1,0 +1,57 @@
+.features-wrapper {
+  background-color: var(--clr-white);
+  text-align: center;
+  padding: 5rem 15%;
+}
+
+.features-header h2 {
+  font-size: 2rem; /* Adjust the size as needed */
+  margin-bottom: 0.5rem;
+  color: var(--clr-feature-h);
+}
+
+.features-header p {
+  margin-bottom: 2rem; /* Space before the features start */
+  color: #666; /* A placeholder color */
+  font-size: 1rem; /* Adjust the size as needed */
+}
+
+.features-section {
+  padding: 3rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.feature {
+  width: 25%; /* 4 items in a row for widths >= 1024px */
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.feature h3 {
+  margin-top: 1em;
+  font-size: 1.2rem;
+  color: var(--clr-feature-h);
+}
+
+.feature p {
+  margin-top: 0.5em;
+  font-size: 1rem;
+  color: rgb(97, 92, 92);
+  line-height: 1.5;
+}
+
+@media (max-width: 1023px) {
+  .feature {
+    width: 50%; /* 2 items in a row */
+  }
+}
+
+/* When the window width is less than 768px, show 1 feature per row */
+@media (max-width: 767px) {
+  .feature {
+    width: 100%; /* 1 item per row */
+  }
+}

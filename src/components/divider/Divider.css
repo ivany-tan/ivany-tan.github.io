@@ -1,0 +1,6 @@
+.section-divider {
+  border: 0; /* Remove the default border */
+  height: 0.75px; /* Set the height of the line */
+  background-color: lightgrey; /* Set the color of the line */
+  margin: 0;
+}
